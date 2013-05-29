@@ -1,0 +1,8 @@
+*.suo
+*.csproj.user
+*.vssscc
+bin/
+obj/
+*~
+*.swp
+*.bak
