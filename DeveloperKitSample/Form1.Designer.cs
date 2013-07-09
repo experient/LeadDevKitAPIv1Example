@@ -56,8 +56,10 @@
 			this.label8 = new System.Windows.Forms.Label();
 			this.TextBoxActCode = new System.Windows.Forms.TextBox();
 			this.TabPageLeadCaptureByQRCode = new System.Windows.Forms.TabPage();
+			this.CheckBoxLeadCaptureByQRCode = new System.Windows.Forms.CheckBox();
 			this.label12 = new System.Windows.Forms.Label();
 			this.TabPageCaptureKeyName = new System.Windows.Forms.TabPage();
+			this.CheckBoxLeadCaptureByKeyName = new System.Windows.Forms.CheckBox();
 			this.label11 = new System.Windows.Forms.Label();
 			this.ButtonLeadCaptureByKeyName = new System.Windows.Forms.Button();
 			this.TextBoxAttendeeLastName = new System.Windows.Forms.TextBox();
@@ -109,8 +111,6 @@
 			this.label3 = new System.Windows.Forms.Label();
 			this.GroupBoxResults = new System.Windows.Forms.GroupBox();
 			this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-			this.CheckBoxLeadCaptureByKeyName = new System.Windows.Forms.CheckBox();
-			this.CheckBoxLeadCaptureByQRCode = new System.Windows.Forms.CheckBox();
 			this.TabPageControl1.SuspendLayout();
 			this.TabPageDocumentation.SuspendLayout();
 			this.TabPageActivation.SuspendLayout();
@@ -192,7 +192,7 @@
 			// label1
 			// 
 			this.label1.AutoSize = true;
-			this.label1.Location = new System.Drawing.Point(13, 90);
+			this.label1.Location = new System.Drawing.Point(13, 91);
 			this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(110, 13);
@@ -229,7 +229,7 @@
 			// label9
 			// 
 			this.label9.AutoSize = true;
-			this.label9.Location = new System.Drawing.Point(25, 124);
+			this.label9.Location = new System.Drawing.Point(25, 121);
 			this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
 			this.label9.Name = "label9";
 			this.label9.Size = new System.Drawing.Size(114, 13);
@@ -293,6 +293,7 @@
 			this.TextBoxResults.Multiline = true;
 			this.TextBoxResults.Name = "TextBoxResults";
 			this.TextBoxResults.ReadOnly = true;
+			this.TextBoxResults.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
 			this.TextBoxResults.Size = new System.Drawing.Size(620, 171);
 			this.TextBoxResults.TabIndex = 1;
 			// 
@@ -443,6 +444,16 @@
 			this.TabPageLeadCaptureByQRCode.TabIndex = 2;
 			this.TabPageLeadCaptureByQRCode.Text = "Capture Lead (QRCode)";
 			// 
+			// CheckBoxLeadCaptureByQRCode
+			// 
+			this.CheckBoxLeadCaptureByQRCode.AutoSize = true;
+			this.CheckBoxLeadCaptureByQRCode.Location = new System.Drawing.Point(136, 139);
+			this.CheckBoxLeadCaptureByQRCode.Name = "CheckBoxLeadCaptureByQRCode";
+			this.CheckBoxLeadCaptureByQRCode.Size = new System.Drawing.Size(101, 17);
+			this.CheckBoxLeadCaptureByQRCode.TabIndex = 16;
+			this.CheckBoxLeadCaptureByQRCode.Text = "Show me JSON";
+			this.CheckBoxLeadCaptureByQRCode.UseVisualStyleBackColor = true;
+			// 
 			// label12
 			// 
 			this.label12.Location = new System.Drawing.Point(8, 15);
@@ -471,6 +482,16 @@
 			this.TabPageCaptureKeyName.Size = new System.Drawing.Size(616, 342);
 			this.TabPageCaptureKeyName.TabIndex = 3;
 			this.TabPageCaptureKeyName.Text = "Capture Lead (Key/Name)";
+			// 
+			// CheckBoxLeadCaptureByKeyName
+			// 
+			this.CheckBoxLeadCaptureByKeyName.AutoSize = true;
+			this.CheckBoxLeadCaptureByKeyName.Location = new System.Drawing.Point(268, 146);
+			this.CheckBoxLeadCaptureByKeyName.Name = "CheckBoxLeadCaptureByKeyName";
+			this.CheckBoxLeadCaptureByKeyName.Size = new System.Drawing.Size(101, 17);
+			this.CheckBoxLeadCaptureByKeyName.TabIndex = 15;
+			this.CheckBoxLeadCaptureByKeyName.Text = "Show me JSON";
+			this.CheckBoxLeadCaptureByKeyName.UseVisualStyleBackColor = true;
 			// 
 			// label11
 			// 
@@ -1020,26 +1041,6 @@
 			this.splitContainer1.SplitterDistance = 366;
 			this.splitContainer1.SplitterWidth = 6;
 			this.splitContainer1.TabIndex = 1;
-			// 
-			// CheckBoxLeadCaptureByKeyName
-			// 
-			this.CheckBoxLeadCaptureByKeyName.AutoSize = true;
-			this.CheckBoxLeadCaptureByKeyName.Location = new System.Drawing.Point(268, 146);
-			this.CheckBoxLeadCaptureByKeyName.Name = "CheckBoxLeadCaptureByKeyName";
-			this.CheckBoxLeadCaptureByKeyName.Size = new System.Drawing.Size(101, 17);
-			this.CheckBoxLeadCaptureByKeyName.TabIndex = 15;
-			this.CheckBoxLeadCaptureByKeyName.Text = "Show me JSON";
-			this.CheckBoxLeadCaptureByKeyName.UseVisualStyleBackColor = true;
-			// 
-			// CheckBoxLeadCaptureByQRCode
-			// 
-			this.CheckBoxLeadCaptureByQRCode.AutoSize = true;
-			this.CheckBoxLeadCaptureByQRCode.Location = new System.Drawing.Point(136, 139);
-			this.CheckBoxLeadCaptureByQRCode.Name = "CheckBoxLeadCaptureByQRCode";
-			this.CheckBoxLeadCaptureByQRCode.Size = new System.Drawing.Size(101, 17);
-			this.CheckBoxLeadCaptureByQRCode.TabIndex = 16;
-			this.CheckBoxLeadCaptureByQRCode.Text = "Show me JSON";
-			this.CheckBoxLeadCaptureByQRCode.UseVisualStyleBackColor = true;
 			// 
 			// Form1
 			// 

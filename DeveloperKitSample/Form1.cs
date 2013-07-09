@@ -163,10 +163,17 @@ namespace Experient.DeveloperKitSample
 						else
 						{
 							ResultsWriteLine("In addition to the core contact fields in the LeadInfo class, " +
-							"this show also contains the following Demographic fields:");
+							"this show also contains the following Demographic fields.  Each field is shown below " +
+							"along with it's list of possible values.  Fields with no possible values may contain " + 
+							"free-form text.");
 							ResultsWriteLine();
-							foreach ( var D in Response.Demographics )
-								ResultsWriteLine(D.Key);
+							foreach ( var F in Response.Demographics )
+							{
+								ResultsWriteLine("Field Name: {0}", F.Key);
+								foreach ( var V in F.Value.Split("|".ToCharArray(), StringSplitOptions.RemoveEmptyEntries) )
+									ResultsWriteLine("  {0}", V);
+								ResultsWriteLine();
+							}
 						}
 					}
 				}
