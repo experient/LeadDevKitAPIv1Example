@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Experient Inc a Maritz Travel Company")]
 [assembly: AssemblyProduct("Real Time Data API")]
-[assembly: AssemblyCopyright("Copyright © 2013 Experient Inc")]
+[assembly: AssemblyCopyright("Copyright © 2014 Experient Inc")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -31,6 +31,6 @@ using System.Runtime.InteropServices;
 //
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
-// [assembly: AssemblyVersion("3.10.0.0")]
-[assembly: AssemblyVersion("3.10.0.0")]
-[assembly: AssemblyFileVersion("3.10.8534.0")]
+// [assembly: AssemblyVersion("3.20.0.0")]
+[assembly: AssemblyVersion("3.20.0.0")]
+[assembly: AssemblyFileVersion("3.20.8901.0")]
