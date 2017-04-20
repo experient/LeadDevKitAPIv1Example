@@ -4,15 +4,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeveloperKitSample", "DeveloperKitSample\DeveloperKitSample.csproj", "{91F7CBBD-0D0B-458B-A21D-4E33A5905F5A}"
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 2
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://team.experient-inc.com/tfs/connections
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = DeveloperKitSample\\DeveloperKitSample.csproj
-		SccProjectName1 = DeveloperKitSample
-		SccLocalPath1 = DeveloperKitSample
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
 		Neutral|x64 = Neutral|x64
