@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Experient Inc a Maritz Travel Company")]
 [assembly: AssemblyProduct("Real Time Data API")]
-[assembly: AssemblyCopyright("Copyright © 2019 Experient Inc")]
+[assembly: AssemblyCopyright("Copyright © 2020 Experient Inc")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -33,4 +33,4 @@ using System.Runtime.InteropServices;
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("5.22.0.0")]
 [assembly: AssemblyVersion("5.22.0.0")]
-[assembly: AssemblyFileVersion("5.22.0.3696")]
+[assembly: AssemblyFileVersion("5.22.0.4213")]
