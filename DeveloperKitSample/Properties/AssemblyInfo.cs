@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Real Time Data API Developer Kit Sample Application")]
 [assembly: AssemblyDescription("This is a sample application showing how to use the Mobile Services for real-time lead capture.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Experient Inc a Maritz Travel Company")]
+[assembly: AssemblyCompany("Maritz Global Events")]
 [assembly: AssemblyProduct("Real Time Data API")]
-[assembly: AssemblyCopyright("Copyright © 2021 Experient Inc")]
+[assembly: AssemblyCopyright("Copyright © 2021 Maritz Global Events")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -33,4 +33,4 @@ using System.Runtime.InteropServices;
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("5.23.0.0")]
 [assembly: AssemblyVersion("5.23.0.0")]
-[assembly: AssemblyFileVersion("5.23.0.12541")]
+[assembly: AssemblyFileVersion("5.23.0.14182")]
